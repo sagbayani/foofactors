@@ -1,0 +1,24 @@
+Package: foofactors
+Title: Make Factors Less Annoying
+Version: 0.0.0.9000
+Authors@R: person("Selina", "Agbayani", email = "s.agbayani@oceans.ubc.ca", role = c("aut", "cre"))
+Description: Factors can be annoying and we will make them less annoying and the rest of
+    this text is now ipsum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+    laborum.
+Depends:
+    R (>= 3.3.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
+Suggests: testthat,
+    knitr,
+    rmarkdown
+Imports: dplyr
+VignetteBuilder: knitr
+URL: https://github.com/sagbayani/foofactors
+BugReports: https://github.com/sagbayani/foofactors/issues
