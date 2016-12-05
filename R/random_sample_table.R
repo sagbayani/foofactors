@@ -26,3 +26,4 @@ random_sample_table <- function(x, nsample=15){
   
   return(sample_table)
 }
+
