@@ -15,8 +15,8 @@
 #' peek(iris, 10)
 random_sample_table <- function(x, nsample=15){
   
-  # Verify nsample is an interger
-  check.integer(nsample)
+  # Verify nsample is integer
+  stopifnot(is.integer(nsample))
   
   sample_table  <- x %>% 
     dplyr::as.tbl() %>%
