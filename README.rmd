@@ -1,5 +1,5 @@
 ---
-title: "foofactors R package (Homework 08)"
+title: "foofactors R package (Homework 09)"
 author: "Selina Agbayani"
 date: "`r format(Sys.Date())`"
 output: github_document
@@ -41,7 +41,7 @@ b <- factor(c("but", "integer", "where it", "counts"))
 
 Simply catenating two factors leads to a result that most don't expect.
 
-``'
+```
 c(a, b)
 ```
 
