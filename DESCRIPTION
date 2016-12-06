@@ -18,7 +18,8 @@ RoxygenNote: 5.0.1
 Suggests: testthat,
     knitr,
     rmarkdown
-Imports: dplyr
+Imports: dplyr,
+    assertthat
 VignetteBuilder: knitr
 URL: https://github.com/sagbayani/foofactors
 BugReports: https://github.com/sagbayani/foofactors/issues
