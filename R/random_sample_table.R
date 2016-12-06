@@ -22,10 +22,11 @@ random_sample_table <- function(x, nsample=5){
   # Verify nsample is numeric
   assertthat::assert_that(assertthat::is.count(nsample))
 
-  sample_table  <- x %>%
-      dplyr::data_frame(x)
-      dplyr::mutate(original_nrow = 1:nrow(.)) %>%
-      dplyr::sample_n(nsample)
+  sample_table  <- x %>% 
+    dplyr::as.tbl() %>%
+    dplyr::mutate(original_nrow = 1:nrow(.)) %>%
+    dplyr::sample_n(nsample) %>%
+    as.data.frame()
 
   return(sample_table)
 }
