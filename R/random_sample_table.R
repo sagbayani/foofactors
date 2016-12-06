@@ -7,16 +7,13 @@
 #'
 #' @return data.frame
 #' @export
-#' @import dplyr, assertthat
+#' @import dplyr
 #'  
 #' @examples
 #' # randomly sample rows from a table (by default 10)
 #' peek(iris)
 #' # randomly sample 10 rows from a table
 #' peek(iris, 10)
-
-
-
 random_sample_table <- function(x, nsample=5){
 
   # Verify nsample is numeric

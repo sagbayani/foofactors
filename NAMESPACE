@@ -2,3 +2,5 @@
 
 export(fbind)
 export(freq_out)
+export(random_sample_table)
+import(dplyr)
