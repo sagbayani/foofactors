@@ -65,3 +65,9 @@ The `freq_out()` function returns a frequency table as a well-named `tbl_df`:
 ```
 freq_out(x)
 ```
+
+The `sample_random_table()` function returns a random set of rows from a specified data.frame:
+
+```
+sample_random_table(iris, 15)
+```

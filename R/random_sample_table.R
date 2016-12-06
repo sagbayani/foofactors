@@ -10,11 +10,11 @@
 #' @import dplyr
 #'  
 #' @examples
-#' # randomly sample rows from a table (by default 10)
-#' peek(iris)
-#' # randomly sample 10 rows from a table
-#' peek(iris, 10)
-random_sample_table <- function(x, nsample=5){
+#' # randomly sample rows from a table (by default 15)
+#' random_sample_table(iris)
+#' # randomly sample 15 rows from a table
+#' random_sample_table(iris, 15)
+random_sample_table <- function(x, nsample=15){
 
   # Verify nsample is numeric
   assertthat::assert_that(assertthat::is.count(nsample))

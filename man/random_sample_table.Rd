@@ -4,7 +4,7 @@
 \alias{random_sample_table}
 \title{Sample Table}
 \usage{
-random_sample_table(x, nsample = 5)
+random_sample_table(x, nsample = 15)
 }
 \arguments{
 \item{x}{data.frame}
@@ -18,9 +18,9 @@ data.frame
 Pull out a random sample of rows as a data.frame
 }
 \examples{
-# randomly sample rows from a table (by default 10)
-peek(iris)
-# randomly sample 10 rows from a table
-peek(iris, 10)
+# randomly sample rows from a table (by default 15)
+random_sample_table(iris)
+# randomly sample 15 rows from a table
+random_sample_table(iris, 15)
 }
 

@@ -12,7 +12,8 @@
 #' @examples
 #' fbind(iris$Species[c(1, 51, 101)], PlantGrowth$Group[c(1, 11, 21)])
 fbind <- function(a, b) {
-  factor(c(as.character(a), as.character(b)))
+  bound <- factor(c(as.character(a), as.character(b)))
+  return(bound)
 }
 
 #in the definition of your function, click Insert Roxygen skeleton
